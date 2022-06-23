@@ -5,5 +5,6 @@ require('esbuild').build({
     platform: 'node',
     target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
     outdir: './dist',
-    watch: true
+    watch: true,
+
 });
