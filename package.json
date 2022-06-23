@@ -1,0 +1,17 @@
+{
+  "name": "krowdyacademy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Shadowrunner11/krowdyAcademyJunio",
+  "author": "Shadowrunner11 <matematicadivina1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.14.47"
+  },
+  "scripts": {
+    "dev": "node ./config/config.js "
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}
