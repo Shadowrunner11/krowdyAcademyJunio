@@ -4,9 +4,9 @@ export const waitForElement  = selector  => new Promise((res, rej)=>{
     const intervalId = setInterval(()=>{
         if($(selector)){
             clearInterval(intervalId);
-            res();
+            res($(selector));
         }
     },10);
 
-    setTimeout(()=>{rej();}, 12);
+    setTimeout(()=>{rej();}, 5500);
 });
